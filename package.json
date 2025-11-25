@@ -1,0 +1,21 @@
+{
+    "name": "barbearia-websocket-server",
+    "version": "1.0.0",
+    "description": "Servidor WebSocket separado para atualizações em tempo real",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "keywords": ["websocket", "socket.io", "realtime"],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "socket.io": "^4.7.5"
+    },
+    "devDependencies": {
+      "nodemon": "^3.1.0"
+    }
+  }
+  
+  
